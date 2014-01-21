@@ -1,0 +1,57 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:animateLayoutChanges="true"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/b3">
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:animateLayoutChanges="true">
+        
+        <ImageView
+            android:id="@+id/aboutimage"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_marginTop="10dp"
+            android:layout_centerHorizontal="true"
+            android:padding="-30dp"
+            android:contentDescription="About_Image"
+            android:cropToPadding="true"/>
+        <TextView 
+            android:id="@+id/abouttext"
+            android:layout_below="@id/aboutimage"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:textColor="#0F0"
+            android:textSize="25sp" />
+        <TextView
+            android:id="@+id/moreinfo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/abouttext"
+            android:layout_marginTop="10dp"
+            android:text="@string/moreinfo"
+            android:textColor="#FFF"
+            android:textSize="20sp" />
+        
+        <Button
+            android:id="@+id/aboutlink"
+            style="@style/Main_Home_Button"
+            android:layout_below="@id/moreinfo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:textColorLink="#44BDF9"
+            android:textColor="#FFF"/>
+    </RelativeLayout>
+
+</ScrollView>
+</RelativeLayout>

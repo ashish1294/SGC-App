@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:id="@+id/main1"
+    android:background="@drawable/b4"
+    android:animateLayoutChanges="true" >    
+    <ScrollView 
+        android:id="@+id/scrollstellar"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:scrollbars="vertical">
+        
+    <LinearLayout
+        android:id="@+id/stellarrela"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:animateLayoutChanges="true">
+        <TextView 
+            android:id="@+id/stellarabout"
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/stellartext"
+            android:textColor="#FFB77F"
+            android:textSize="25sp" />
+        
+        <Button
+	    android:id="@+id/stellaread"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:text="Read Stella Specta"
+	    android:layout_gravity="center_horizontal"
+	    style="@style/Main_Home_Button" />
+        
+        <Button
+	    android:id="@+id/stellarupdate"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:text="Retrieve New Edition"
+	    android:layout_gravity="center_horizontal"
+	    style="@style/Main_Home_Button" />
+	</LinearLayout>
+	</ScrollView>
+</LinearLayout>

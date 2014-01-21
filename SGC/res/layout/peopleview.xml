@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/main1"
+    android:background="@drawable/b5">
+    
+    <ScrollView
+        android:id="@+id/peopleviewscroll"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        
+        <TableLayout
+            android:id="@+id/peopleviewtable"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            
+            <TableRow
+                android:weightSum="1">
+                <ImageView
+        			android:layout_width="200dp"
+        			android:layout_weight="1"
+        			android:minWidth="200dp"
+        			android:layout_height="200dp"
+        			android:minHeight="200dp"
+        			android:layout_gravity="center_horizontal"
+        			android:layout_marginTop="10dp"
+        			android:id="@+id/peopleimage"
+        			android:src="@drawable/human"
+        			android:contentDescription="@string/pplimgdes"/>
+            </TableRow>
+            <TableRow
+                android:id="@+id/namerow"
+                style="@style/People_View_Row">"
+                <TextView
+                    android:text="Name"
+                    style="@style/People_View_Left"/>
+                    
+                 <TextView
+                    android:id="@+id/nametv"
+                    style="@style/People_View_Right"/> 
+            </TableRow>
+            <TableRow
+                android:id="@+id/yearrow"
+                style="@style/People_View_Row">
+                <TextView
+                    android:text="Year"
+                    style="@style/People_View_Left"/>
+                    
+                 <TextView
+                    android:id="@+id/yeartv"
+                    style="@style/People_View_Right"/>
+            </TableRow>
+            <TableRow
+                android:id="@+id/deprow"
+                style="@style/People_View_Row">
+                <TextView
+                    android:text="Department"
+                    style="@style/People_View_Left"/>
+                    
+                 <TextView
+                    android:id="@+id/deptv"
+                    style="@style/People_View_Right"/>
+            </TableRow>
+            <TableRow
+                android:id="@+id/abtrow"
+                style="@style/People_View_Row">
+                <TextView
+                    android:text="About"
+                    style="@style/People_View_Left"/>
+                    
+                 <TextView
+                    android:id="@+id/abttv"
+                    android:ellipsize="none"
+                    style="@style/People_View_Right"/>
+            </TableRow>
+            <TableRow
+                android:id="@+id/arearow"
+                style="@style/People_View_Row">
+                <TextView
+                    android:text="Area of Interest"
+                    style="@style/People_View_Left"/>
+                 <TextView
+                    android:id="@+id/areatv"
+                    style="@style/People_View_Right"/>
+            </TableRow>
+            <TableRow
+                android:id="@+id/emailrow"
+                style="@style/People_View_Row">
+                <TextView
+                    android:text="E-mail"
+                    style="@style/People_View_Left"/>
+                    
+                 <TextView
+                    android:id="@+id/emailtv"
+                    style="@style/People_View_Right"/>
+            </TableRow>
+            <TableRow
+                android:id="@+id/urlrow"
+                style="@style/People_View_Row">
+                <TextView
+                    android:text="For more Info"
+                    style="@style/People_View_Left"/>
+                    
+                 <TextView
+                    android:id="@+id/urltv"
+                    style="@style/People_View_Right"
+                    android:clickable="true"/>
+            </TableRow>
+        </TableLayout>
+    </ScrollView>
+</RelativeLayout>

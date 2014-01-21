@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/main1"
+    android:background="@drawable/b5" >
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:animateLayoutChanges="true" >
+        
+        <RelativeLayout 
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+            
+            <TextView
+            android:id="@+id/conastrotext"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:textSize="25sp"
+            android:text="@string/conastro"
+            android:textColor="#FFFFFF" />
+
+        	<ImageButton
+        	    android:contentDescription="@string/conastrosmsdes"
+        	    android:id="@+id/astrosms"
+        	    android:layout_width="wrap_content"
+        	    android:layout_height="wrap_content"
+        	    android:maxHeight="40dp"
+        	    android:maxWidth="40dp"
+        	    android:layout_below="@id/conastrotext"
+        	    android:layout_alignParentRight="true"
+        	    android:layout_margin="0dp"
+        	    android:src="@drawable/message" />
+        	
+        	<ImageButton
+        	    android:id="@+id/astrocall"
+        	    android:contentDescription="@string/conastrocalldes"
+        	    android:layout_width="wrap_content"
+        	    android:layout_height="wrap_content"
+        	    android:layout_alignBottom="@id/astrosms"
+        	    android:layout_toLeftOf="@+id/astrosms"
+        	    android:layout_margin="0dp"
+        	    android:src="@drawable/call" />
+        	
+        	<TextView
+        	android:id="@+id/conastronum"
+        	android:layout_width="wrap_content"
+        	android:layout_height="wrap_content"
+        	android:layout_alignParentLeft="true"
+        	android:layout_below="@id/conastrotext"
+        	android:text="@string/conastrocall"
+        	android:gravity="center_vertical"
+        	android:textSize="30sp"
+        	android:layout_alignBottom="@id/astrosms"
+        	android:textColor="#00FF00" />
+        	
+        	<ImageButton 
+        	    android:id="@+id/astroemail"
+        	    android:layout_below="@id/astrosms"
+        	    android:contentDescription="@string/conastroemaildes"
+        	    android:layout_width="wrap_content"
+        	    android:layout_height="wrap_content"
+        	    android:layout_alignParentRight="true"
+        	    android:src="@drawable/email"/>
+        	
+        	<TextView
+        	android:id="@+id/conastroemail"
+        	android:layout_width="wrap_content"
+        	android:layout_height="wrap_content"
+        	android:layout_alignParentLeft="true"
+        	android:layout_below="@id/conastronum"
+        	android:text="@string/conastroemail"
+        	android:gravity="center_vertical"
+        	android:textSize="30sp"
+        	android:layout_alignBottom="@id/astroemail"
+        	android:textColor="#00FF00"/>
+        	
+			<TextView
+            android:id="@+id/conbugtext"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_below="@id/conastroemail"
+            android:textSize="25sp"
+            android:text="@string/conbug"
+            android:textColor="#FFFFFF"/>
+
+        	<ImageButton
+        	    android:contentDescription="@string/conastrosmsdes"
+        	    android:id="@+id/bugsms"
+        	    android:layout_width="wrap_content"
+        	    android:layout_height="wrap_content"
+        	    android:layout_below="@id/conbugtext"
+        	    android:layout_alignParentRight="true"
+        	    android:layout_margin="0dp"
+        	    android:src="@drawable/message"/>
+        	
+        	<ImageButton
+        	    android:id="@+id/bugcall"
+        	    android:contentDescription="@string/conastrocalldes"
+        	    android:layout_width="wrap_content"
+        	    android:layout_height="wrap_content"
+        	    android:layout_alignBottom="@id/bugsms"
+        	    android:layout_toLeftOf="@+id/bugsms"
+        	    android:layout_margin="0dp"
+        	    android:src="@drawable/call"/>
+        	
+        	<TextView
+        	android:id="@+id/conbugnum"
+        	android:layout_width="wrap_content"
+        	android:layout_height="wrap_content"
+        	android:layout_alignParentLeft="true"
+        	android:layout_below="@id/conbugtext"
+        	android:text="@string/conbugcall"
+        	android:gravity="center_vertical"
+        	android:textSize="30sp"
+        	android:layout_alignBottom="@id/bugsms"
+        	android:textColor="#00FF00" />
+        	
+        	<ImageButton 
+        	    android:id="@+id/bugemail"
+        	    android:layout_below="@id/bugsms"
+        	    android:contentDescription="@string/conastroemaildes"
+        	    android:layout_width="wrap_content"
+        	    android:layout_height="wrap_content"
+        	    android:layout_alignParentRight="true"
+        	    android:src="@drawable/email"/>
+        	
+        	<TextView
+        	android:id="@+id/conbugemail"
+        	android:layout_width="wrap_content"
+        	android:layout_height="wrap_content"
+        	android:layout_alignParentLeft="true"
+        	android:layout_below="@id/conbugnum"
+        	android:text="@string/conbugemail"
+        	android:gravity="center_vertical"
+        	android:textSize="30sp"
+        	android:layout_alignBottom="@id/bugemail"
+        	android:textColor="#00FF00" />
+		</RelativeLayout>
+
+    </ScrollView>
+
+</RelativeLayout>

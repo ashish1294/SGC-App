@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/main1"
+    android:background="@drawable/b2"
+    android:animateLayoutChanges="true" >
+    
+    <ScrollView 
+        android:id="@+id/scrollmain"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:scrollbars="vertical"
+        android:scrollbarAlwaysDrawHorizontalTrack="true"
+        android:animateLayoutChanges="true" >
+        
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:animateLayoutChanges="true" >
+            
+            <Button
+    		    android:id="@+id/aboutnitk"
+    		    style="@style/Main_Home_Button"
+    		    android:layout_marginTop="40dp"
+    		    android:text="NITK Surathkal" />
+            
+            <Button
+    		    android:id="@+id/aboutengi"
+    		    style="@style/Main_Home_Button"
+    		    android:layout_below="@id/aboutnitk"
+    		    android:layout_marginTop="25dp"
+    		    android:text="Engineer 2013" />
+            
+            <Button
+    		    android:id="@+id/aboutsgc"
+    		    style="@style/Main_Home_Button"
+    		    android:layout_below="@id/aboutengi"
+    		    android:layout_marginTop="25dp"
+    		    android:text="Star Gazing Club" />
+            
+            <Button
+    		    android:id="@+id/aboutastro"
+    		    style="@style/Main_Home_Button"
+    		    android:layout_below="@id/aboutsgc"
+    		    android:layout_marginTop="25dp"
+    		    android:text="Astro Committee" />
+        </RelativeLayout>
+        
+    </ScrollView>
+    
+
+</RelativeLayout>

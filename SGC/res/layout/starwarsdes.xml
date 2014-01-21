@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:background="@drawable/b2"
+    android:id="@+id/main1"
+    android:layout_height="fill_parent"
+    android:orientation="vertical">
+    
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:scrollbars="vertical"
+        android:animateLayoutChanges="true">
+	<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="7dp"
+    android:orientation="vertical">
+    
+    <TextView
+        android:text="Star Wars"
+        android:layout_marginTop="5dp"
+        style="@style/Event_Heading">
+    </TextView>
+    <TextView
+        android:text="@string/starwarsdes"
+        android:id="@+id/eventviewdes1"
+        android:layout_marginTop="10dp"
+        style="@style/Event_des">
+    </TextView>
+	</LinearLayout>
+	</ScrollView>
+	</LinearLayout>

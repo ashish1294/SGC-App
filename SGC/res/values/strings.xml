@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Star Gazing Club</string>
+    <string name="weightinfo">Weight Machine is a weight calculator measuring your weight on different extra-terrestrial objects relative to your weight on the Earth. By E.T. objects we mean planets of the solar system, their satellites and different kinds of stars in the interstellar space.</string>
+    <string name="menu_settings">Settings</string>
+    <string name="quiztext">This is the Starwars quiz</string>
+    <string name="about_nitk">A premier institution in all aspects, NITK, situated about 20 kms north of Mangalore, has earned its reputation as an Institute of National Importance. It was founded in 1960 as KREC while today, it is one of the 30 National Institutes of Technology in India. The 295 acres campus is located on National Highway 66 (formerly National Highway 17), by the shores of Arabian Sea, and has a private beach, including a lighthouse. NITK Surathkal offers undergraduate and graduate programs in Engineering, Science and Management. The institute has 14 departments and 11 support centers with about 200 faculty members, 300 support staff, 5,500 students and 15,500 alumni worldwide. Since 2004 when it became a centrally funded institution, NITK has opened doors to students from all over the country. Engineer (a national level technical symposium) takes place typically around the last week of October and Incident (a cultural festival) is organized since 1980 during the last week of February. The college has a rich culture and a healthy technical environment, courtesy to tech and cultural clubs.\n\nProfessor Swapan Bhattacharya is the current director, being assisted by deans in the functioning of the institution.</string>
+	<string name="about_engi">Engineer is an annual technical symposium in India organized by NITK Surathkal. The event was started after the amalgamation of many technical festivals held at NITK Surathkal by student clubs. Held for the first time in 2005, it has consistently attracted participants from all over the India.\n\nIn its previous edition, Engineer brought organizations such as CERN, MIT Media and Bell labs while catering to a participation pool of over 6000 students from 150 colleges across 65 countries.\n\nGuest speakers have included Richard Stallman, Sam Pitroda, Dr. Devi Shetty, Sir Anthony James Leggett, Ankit Fadia and other personalities.\n\nWe hope to carry the legacy one step ahead with Engineer 2013.</string>
+	<string name="about_astro_event">The name is coined for the events organized by the Astro Committee. Previous editions witnessed events encompassing real-life applications to some serious paper work.\nThis year we present the following events :</string>
+	<string name="about_Astro">Working under its umbrella organization \‘Star Gazing Club\’, this committee is solely responsible for organizing events during NITK\' s tech fest called \‘Engineer\’. Being a subsidiary of SGC, it conducts regular open discussions on the probable events for the Engineer every year.\n\nFor \'Engineer 2013\' following are the members of Astro Committee: \n\n</string>
+	<string name="about_sgc">Star Gazing Club or SGC is an amateur astronomy and astrophysics club of NITK. It is a forum to discuss a common passion with vigour and enthusiasm. SGC conducts regular meetings, interactive \‘knowledge sharing\’ sessions, Astro quiz, and Starry Nights. The members of SGC visit nearby schools and conduct workshop to promulgate astronomy among young minds. Stella Specta is SGC\’s exclusive newsletter. SGC has undertaken various projects such as the Telescope. The members are building a 10 inch telescope from the scratch, and Radio Jove. SGC is one of the few teams to receive Radio Jove Kit by Society of Amateur Radio Astronomers (SARA) sponsored by NASA. It is an integral part of NITK and actively participates in Engineer via the Astro Committee and Astro Events.</string>
+	<string name="moreinfo">For more information on this please visit :</string>
+	<string name="nitklink">http://www.nitk.ac.in</string>
+	<string name="Engineerlink">http://www.engineer.org.in</string>
+	<string name="sgclink">http://beachsideblues.com/clubs/hobbies/star-gazing-club</string>
+	<string name="astrolink">http://engineer.org.in/2013/#astro-events</string>
+	<string name="stellartext">Stella Specta is the exclusive monthly newsletter of Star Gazing Club. The main aim is to propagate astronomy, astrophysics and associated topics among the students of NITK. Each edition covers qualitative information on specific topics such as Asteroids, Meteors, etc. Moreover the forthcoming events of SGC are also mentioned in Stella Specta. There is also a special column for Astro quiz and humorous cartoons depicting the lighter side of space and universe.</string>
+	<string name="stellarcarderr">SD Card Unmounted</string>
+	<string name="magname">Stella_Specta</string>
+	<string name="magex">.pdf</string>
+	<string name="magurl">http://ashishkedianitk.site90.net/</string>
+	<string name="magmime">application/pdf</string>
+	<string name="conbug">For reporting bugs and errors, kindly contact</string>
+	<string name="conbugcall">+919986978059</string>
+	<string name="conbugemail">ashish1294@gmail.com</string>
+	<string name="conastro">For any query regarding Astro Events or SGC, kindly contact</string>
+	<string name="conastrocall">+919449030636</string>
+	<string name="conastroemail">mrinalarun@gmail.com</string>
+	<string name="conastrocalldes">Call</string>
+	<string name="conastrosmsdes">SMS</string>
+	<string name="conastroemaildes">Email</string>
+	<string name="pplimgdes">Person\'s Image</string>
+	<string name="astrotalkdes">In partnership with TechSpeak, Astronomy committee presents enlightening talks, designed to inspire and educate.\nAstronomy committee presents a series of lectures from eminent scholars conducting cutting edge research in their respective domains.\nWe are proud to present the following speakers:\n</string>
+	<string name="astrotalksp1">Dr. Banibrata Mukhopadhyay</string>
+	<string name="astrotalksp1des1">Currently an Associate professor, in the Department of Physics, Indian Institute of Science, Bangalore.\nHis cutting edge research on black holes brought him to the limelight recently as reflected in the following article:</string>
+	<string name="astrotalksp1link1">http://www.articles.timesofindia.indiatimes.com/2013-09-21/science/42272405_1_black-holes-mass-and-spin-iisc</string>
+	<string name="astrotalksp1des2">He has been invited by Harvard, after his landmark discovery of the interdependence of mass and spin.\nVisit his page for more details:</string>
+	<string name="astrotalksp1link2">http://www.physics.iisc.ernet.in/~bm/</string>
+	<string name="astrotalksp2">\nDr. Jayaram Narayanan Chengalur</string>
+	<string name="astrotalksp2des1">Presently the Dean of National Centre for Radio Astrophysics, TIFR, Pune, Prof. Chengalur has been deeply involved with research on Radio Astronomy. He would be giving a talk on the impact of engineers in the field of pure science.</string>
+	<string name="astrotalkt1">We also present Video Conferences from varied speakers on physics, astrophotography and much more.\n\nVenue: SJA\n\nCome. See.  Rejoice.</string>
+	<string name="starwarsdes">It is the Astronomy Quiz.  It presents itself as a unique opportunity for those passionate in astronomy to flaunt their knowledge of the cosmos.\nIt will consist of 2 rounds. The first one will be a written one while the shortlisted teams will face off in the final round.\n\nVenue:\nFirst Round at NTB on 26th Oct (afternoon)\nFinal at ISTE Seminar Hall on 26th Oct (Evening)</string>
+	<string name="beyondearthdes">It is a Human Settlement Challenge. This event calls upon participants who are keen to learn about strategy we would have to employ to expand our forces beyond Mother Earth.  The settlement should have extensive plans and should not depend on Earth for basic amenities. Teams are evaluated on the basis of innovation, creativity and presentation skills.\n\nParticipants are needed to submit a thesis of less than 15 pages, explaining in detail, their strategy to populate outer space. Location can be chosen anywhere outside Earth, other than Moon and Mars.\n\nA number of teams will be shortlisted for the final round to be held during Engineer 2013.\n</string>
+	<string name="beyondearthsp1">Final Round:</string>
+	<string name="beyondearthdp1des">Candidates would be required to defend their thesis with the help of a presentation not exceeding 15 minutes. Extra points would be awarded for teams which support their arguments with relevant models using appropriate software.\n\nVenue:ISTE Seminar Hall</string>
+	<string name="exhibits">Following will be showcased throughout Engineer 2013\n</string>
+	<string name="exhibitssp1">Pondus</string>
+	<string name="exhibitssp1des">Your Normal Force ! How much would you weigh in different parts of the cosmos?\n</string>
+	<string name="exhibitssp2">Satellite Launcher</string>
+	<string name="exhibitssp2des">A flash tool depicting the trajectory of satellites.  A gaming console to learn about the movement of satellites enabling the transformation of theory into visualisation.\n</string>
+	<string name="exhibitssp3">Theatron</string>
+	<string name="exhibitssp3des">Compilation of the best documentaries related to physics continuously screened from dawn to dusk.\n</string>
+	<string name="exhibitssp4">Starry nights</string>
+	<string name="exhibitssp4des">Let us navigate through the heavens. We invite amateurs and introduce them to the wonders of the night sky. Greek tales and mythology will be discussed in great detail, promising the gala night to be a great delight. We will enlighten star gazers of the basic topology of the night sky.\n</string>
+	<string name="exhibitsextra">Venue: Astronomy Room, Main Building</string>
+</resources>

@@ -1,0 +1,65 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/b1"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    android:animateLayoutChanges="true" >
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <RelativeLayout 
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:animateLayoutChanges="true" >
+    
+    		<Button
+    		    android:id="@+id/engineer2013"
+    		    style="@style/Main_Home_Button"
+    		    android:layout_marginTop="40dp"
+    		    android:text="Engineer 2013" />
+    	
+    		<!--<Button
+        		android:id="@+id/quiz"
+        		style="@style/Main_Home_Button"
+        		android:layout_below="@id/engineer2013"
+        		android:text="Star Wars" />-->
+    		
+    		<Button
+        		android:id="@+id/weight"
+        		style="@style/Main_Home_Button"
+        		android:layout_below="@id/engineer2013"
+        		android:text="Weight Machine" />
+    		
+    		<Button
+        		android:id="@+id/stellar"
+        		style="@style/Main_Home_Button"
+        		android:layout_below="@id/weight"
+        		android:text="Stella Specta" />
+    		
+    		<Button
+        		android:id="@+id/people"
+        		style="@style/Main_Home_Button"
+        		android:layout_below="@id/stellar"
+        		android:text="People" />
+    		
+    		<Button
+        		android:id="@+id/aboutus"
+        		style="@style/Main_Home_Button"
+        		android:layout_below="@id/people"
+        		android:text="About Us" />
+    		
+    		<Button
+        		android:id="@+id/contactus"
+        		style="@style/Main_Home_Button"
+        		android:layout_below="@id/aboutus"
+        		android:text="Contact Us" />
+    		</RelativeLayout>
+    
+    </ScrollView>
+
+</RelativeLayout>

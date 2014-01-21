@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:id="@+id/main1"
+    android:layout_height="match_parent"
+    android:background="@drawable/b2"
+    android:orientation="vertical" >
+    
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp" >
+
+        <ImageView
+            android:id="@+id/engi_logo"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_centerHorizontal="true"
+            android:padding="-30dp"
+            android:cropToPadding="true"
+            android:src="@drawable/engi_logo" />
+        <Button
+            android:id="@+id/AstroEvents"
+            android:layout_below="@id/engi_logo"
+            android:layout_marginTop="20dp"
+            android:text="Astro Events"
+            style="@style/Main_Home_Button" />
+        <!--<Button
+            android:id="@+id/Schedule"
+            android:layout_below="@id/AstroEvents"
+            android:layout_marginTop="20dp"
+            android:text="Event Schedule"
+            style="@style/Main_Home_Button" />-->
+        <Button
+            android:id="@+id/About_Engi2013"
+            android:layout_below="@id/AstroEvents"
+            android:layout_marginTop="20dp"
+            android:text="About Engineer 2013"
+            style="@style/Main_Home_Button" />
+        <Button
+            android:id="@+id/About_Astro_Com"
+            android:layout_below="@id/About_Engi2013"
+            android:layout_marginTop="20dp"
+            android:text="About Astro Committee"
+            style="@style/Main_Home_Button" />"
+    </RelativeLayout>
+    
+
+</ScrollView>
+</RelativeLayout>

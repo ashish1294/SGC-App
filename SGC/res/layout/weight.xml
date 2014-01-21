@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:id="@+id/main1"
+    android:layout_height="match_parent"
+    android:background="@drawable/b2"
+    android:orientation="vertical" >
+    
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <RelativeLayout 
+            android:layout_width="fill_parent"
+        	android:layout_height="wrap_content"
+        	android:isScrollContainer="true"
+        	android:orientation="vertical"
+        	android:scrollbarAlwaysDrawVerticalTrack="true"
+        	android:scrollbars="vertical"
+        	android:stretchColumns="1" >
+        	
+            <TextView
+                android:id="@+id/weighttext"
+            	android:layout_height="wrap_content"
+            	android:layout_width="wrap_content"
+                android:text="@string/weightinfo"
+                android:alpha="1"
+                android:textSize="30sp"
+                android:textColor="#0F0"/>
+            
+            <TextView
+                android:id="@+id/enterweight"
+                android:layout_below="@id/weighttext"
+                android:layout_marginTop="15dp"
+            	android:layout_height="wrap_content"
+            	android:layout_width="wrap_content"
+                android:text="Enter Your Weight:"
+                android:alpha="1"
+                android:textSize="25sp"
+                android:textColor="#F00"/>
+            
+            <EditText 
+                android:id="@+id/editweight"
+                android:layout_below="@id/enterweight"
+                android:layout_marginTop="10dp"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:hint="Eg. 60"
+                android:inputType="number"
+                android:background="@android:color/transparent"
+                android:textColor="#FFFE91" />
+            <Button 
+                android:id="@+id/weightsubmit"
+                android:layout_below="@id/editweight"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text="Submit Your Weight"
+                style="@style/Main_Home_Button" />
+		</RelativeLayout>
+        
+     </ScrollView>
+
+</RelativeLayout>
